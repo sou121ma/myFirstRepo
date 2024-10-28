@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Log in</title>
+
+
+	
+	<link rel="stylesheet" href="popUpForm.css">
+</head>
+
+<body>
+	<div class="stuContainer">
+
+		<div class="slogo">
+			<img src="image.png" alt="pic not found">
+
+			<button class="btn-register">Sign Up</button>
+		<button class="btn-login">Log In</button>
+
+		</div>
+
+
+		<div class="overlay" onclick="closeOverlay()"></div>
+
+		<div class="register-form">
+			<span class="close-reg">&times;</span>
+
+			<form action="" method="post">
+				<label for="">User Name:</label>
+				<input type="text" name="userName">
+
+				<label for="">Name:</label>
+				<input type="text" name="stuName">
+
+				<label for="">Email:</label>
+				<input type="email" name="email">
+
+				<label for="">Mobile:</label>
+				<input type="text" name="phone">
+
+				<label for="">Password:</label>
+				<input type="password" name="pass">
+
+				<input type="submit" value="Register">
+			</form>
+		</div>
+
+
+		<div class="login-form">
+			<span class="close-log">&times;</span>
+
+			<form action="" method="post">
+				<label for="">User Name:</label>
+				<input type="text" name="userName" placeholder="">
+
+				<label for="">Password:</label>
+				<input type="password" name="pass">
+
+				<input type="submit" value="Log In">
+				<span class="forget-pass">Forget password</span>
+			</form>
+		</div>
+
+	</div>
+
+</body>
+
+<script src="popUpForm.js"></script>
+
+</html>
